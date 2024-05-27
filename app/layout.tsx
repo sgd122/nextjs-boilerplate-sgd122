@@ -2,8 +2,7 @@ import '@/styles/global.scss';
 
 import clsx from 'clsx';
 
-import { notoSansKr, notoSerifFont, pretendardFont } from './fonts';
-
+import { notoSansKr, notoSerifFont, pretendardFont } from '@/app/fonts';
 import ClientContext from '@/components/Context/ClientContext';
 import { getUserServerSession } from '@/utils/session/getUserServerSession';
 import type { Metadata } from 'next';
