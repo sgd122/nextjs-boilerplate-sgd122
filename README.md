@@ -1,6 +1,5 @@
 # Next.js 보일러 플레이트
 
-- &copy;travelmakers
 - Author: [Gidong Seong](https://github.com/sgd122)
 
 
@@ -29,29 +28,21 @@ yarn dev
 
 ```markdown
 📦api
-┣ 📂fetch
-┃ ┗ 📜index.ts  <!-- fetch & mutate function -->
-┣ 📂hooks
-┃ ┗ 📜index.ts  <!-- useFetchInfinite & useFetch -->
-┣ 📂mutates
-┃ ┗ 📜index.ts  <!-- useMutation -->
-┣ 📂urls
-┃ ┗ 📜index.ts  <!-- urls list -->
-┣ 📜fetchFunctions.ts
-┣ 📜fetchHooks.ts
-┣ 📜mutateHooks.ts
-┗ 📜types.ts
+┣ 📂domains
+┣ 📂queries
+┣ 📂route
+┣ 📜config.ts
+┣ 📜fetch.ts
 📦app           <!-- page list -->
 📦components    <!-- component list -->
-📦cypress       <!-- cypress data -->
+📦constants     <!-- constant data -->
+📦hooks         <!-- hook function -->
 📦lib           <!-- library -->
-📦locales       <!-- i18n translate -->
 📦pages         <!-- frontend server api -->
 📦public        <!-- public -->
-📦states        <!-- recoil -->
+📦stores        <!-- zustand -->
 📦styles        <!-- style css -->
 📦types         <!-- type definition -->
-📦ui            <!-- User Interface Component -->
 📦utils         <!-- utils function -->
 ```
 
@@ -78,7 +69,7 @@ npx lhci autorun
 
 ## Reference
 
-- <https://beta.nextjs.org/docs>
+- <https://nextjs.org/docs>
 - <https://next-auth.js.org/configuration/nextjs#unstable_getserversession>
 
 ## License
